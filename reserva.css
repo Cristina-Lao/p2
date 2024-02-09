@@ -1,0 +1,133 @@
+body {
+    margin: 0; 
+    padding: 0; 
+    border: none; 
+}
+
+header {
+    background-color: rgb(100, 234, 198);
+    padding: 20px;
+    margin:0;
+    text-align: center;
+    border: none;
+}
+
+#titulo {
+    color: #333;
+}
+
+#btnVolver{
+    margin: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+#btnVolver:hover{
+    background-color: #555;
+}
+
+
+/* Estilo para el contenedor del formulario */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Estilo para el título del formulario */
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilo para los fieldsets */
+fieldset {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+/* Estilo para leyendas de los fieldsets */
+legend {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+/* Estilo para etiquetas */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+/* Estilo para los inputs de texto */
+input[type="text"],
+input[type="tel"],
+input[type="email"]{
+    width: calc(100% - 10px);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para los botones */
+input[type="submit"],
+input[type="reset"] {
+    background-color: #5adf5c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+/* Estilo para el botón de reset */
+input[type="reset"] {
+    background-color: #dc3545;
+}
+
+/* Estilo para la lista de destinos */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Estilo para los elementos de la lista de destinos */
+li {
+    margin-bottom: 2px;
+}
+
+/* Estilo para los checkboxes */
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Estilo para las etiquetas de los checkboxes */
+label[for] {
+    margin-left: 5px;
+    display: inline-block; 
+}
+
+footer{
+    background-color: rgb(100, 234, 198);
+    height: 50px;
+    border: none;
+    margin: 0;
+}
+
+footer > p{
+    text-align: center;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin: 0; 
+    padding-top: 10px; 
+    border: none;
+}
